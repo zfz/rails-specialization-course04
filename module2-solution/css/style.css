@@ -3,44 +3,46 @@
   margin: 0;
   padding: 0;
 }
+body {
+  margin: 0;
+  padding: 0;
+}
+div.container {
+  top: 30px;
+}
 h1 {
   text-align: center;
   margin-top: 15px;
   margin-bottom: 15px;
 }
-section {
-  border: 1px solid black;
-  background-color: #808080;
-  position: relative;
+div.section {
+  padding: 10px;
   /*
   width: 90%;
   */
-  width: 96%;
-  height: 200px;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-family: Helvetica;
-  color: white;
-  clear: both;
 }
-.menu-name {
+div.section-body {
+  border: 1px solid black;
+  background-color: #808080;
+  /*
+  width: 90%;
+  */
+}
+p.menu-name {
+  border-style: none none solid solid;
+  border-width: 1px;
+  float: right;
+  width: 150px;
   text-align: center;
-  width: 90px;
-  height: 30px;
-  position: absolute;
-  top: 0;
-  right: 0;
+  margin-bottom: 10px;
+  padding: 5px;
 }
-.menu-desc {
-  color: black;
-  position: absolute;
-  top: 20px;
-  bottom: 20px;
-  padding: 5px 5px 5px 5px;
-  margin: 15px 15px 15px 15px;
-  overflow: visible;
+p.menu-desc {
+  margin: 20px;
+  clear: right;
+  width: 90%;
 }
 span {
   line-height: 30px; /* <-- this is what you must define */
