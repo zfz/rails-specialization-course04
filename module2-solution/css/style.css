@@ -31,8 +31,9 @@ div.section-body {
   */
 }
 p.menu-name {
-  border-style: none none solid solid;
-  border-width: 1px;
+  border: 1px solid black;
+  border-top: none;
+  border-right: none;
   border-color: black;
   float: right;
   width: 150px;
